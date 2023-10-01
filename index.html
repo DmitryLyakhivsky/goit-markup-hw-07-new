@@ -22,7 +22,7 @@
       <nav class="header__nav">
         <a class="header__logo logo" lang="en" 
         href="./index.html">Web<span class="header__logo--black">Studio</span></a>
-        <ul class="nav__list">
+        <ul class="nav">
           <li class="nav__item nav__item--current">
             <a class="nav__link link nav__link--current" href="./index.html">Студія</a> </li>
           <li class="nav__item">
@@ -31,17 +31,17 @@
         </ul>
       </nav>
       <!-- Контакты -->
-      <ul class="header__contact">
-        <li class="contact__item"><a class="contact__link" href="mailto:info@devstudio.com"
+      <ul class="header-contact">
+        <li class="header-contact__item"><a class="header-contact__link" href="mailto:info@devstudio.com"
             aria-label="Надіслати Email" title="Надіслати Email">
-            <svg class="contact__envelope contact__icon--right">
+            <svg class="header-contact__envelope header-contact__icon--right">
               <use href="./images/icons.svg#icon-envelope"></use>
             </svg>
             info@devstudio.com</a>
         </li>
-        <li class="contact__item">
-          <a class="contact__link" href="tel:+380961111111" aria-label="Подзвонити" title="Подзвонити">
-            <svg class="contact__smartphone contact__icon--right">
+        <li class="header-contact__item">
+          <a class="header-contact__link" href="tel:+380961111111" aria-label="Подзвонити" title="Подзвонити">
+            <svg class="header-contact__smartphone header-contact__icon--right">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>
             +38 096 111 11 11</a>
@@ -59,10 +59,10 @@
       </div>
     </section>
     <!-- Секция приемущества -->
-    <section class="sсills">
+    <section class="scills">
       <div class="container">
         <h2 class="hidden">Наші переваги</h2>
-        <ul class="scills__list">
+        <ul class="scills__items">
           <li class="scills__item">
             <div class="scills__icons">
               <svg class="scills__svg">
@@ -134,7 +134,7 @@
     <section class="team">
       <div class="container">
         <h2 class="team__title">Наша команда</h2>
-        <ul class="team__items list">
+        <ul class="team__items">
           <li class="team__item">
             <img src="./images/ihor_demyanenko.jpg" alt="Фото Ігор Дем'яненко">
             <div class="team__content">
@@ -312,42 +312,42 @@
         <ul class="clients__items">
           <li class="clients__item">
             <a class="clients__link" href="" aria-label="YA & CO" title="YA & CO">
-              <svg class="clients__svg company_1">
+              <svg class="clients__svg company-1">
                 <use href="./images/icons.svg#icon-Logo"></use>
               </svg>
             </a>
           </li>
           <li class="clients__item">
             <a class="clients__link" href="" aria-label="Company tagline here" title="Company tagline here">
-              <svg class="clients__svg company_2">
+              <svg class="clients__svg company-2">
                 <use href="./images/icons.svg#icon-Logo-1"></use>
               </svg>
             </a>
           </li>
           <li class="clients__item">
             <a class="clients__link" href="" aria-label="Company" title="Company">
-              <svg class="clients__svg company_3">
+              <svg class="clients__svg company-3">
                 <use href="./images/icons.svg#icon-Logo-2"></use>
               </svg>
             </a>
           </li>
           <li class="clients__item">
             <a class="clients__link" href="" aria-label="Foster Peters" title="Foster Peters">
-              <svg class="clients__svg company_4">
+              <svg class="clients__svg company-4">
                 <use href="./images/icons.svg#icon-Logo-3"></use>
               </svg>
             </a>
           </li>
           <li class="clients__item">
             <a class="clients__link" href="" aria-label="Brand" title="Brand">
-              <svg class="clients__svg company_5">
+              <svg class="clients__svg company-5">
                 <use href="./images/icons.svg#icon-Logo-4"></use>
               </svg>
             </a>
           </li>
           <li class="clients__item">
             <a class="clients__link" href="" aria-label="Company Tag Line" title="Company Tag Line">
-              <svg class="clients__svg company_6">
+              <svg class="clients__svg company-6">
                 <use href="./images/icons.svg#icon-Logo-5"></use>
               </svg>
             </a>
@@ -368,7 +368,7 @@
               <li class="footer__item"><a class="footer__link footer__link--white" href="
                                             https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
                   rel="noopener noreferrer nofollow">
-                  м.Київ, пр-т Лесі
+                  м. Київ, пр-т Лесі
                   Українки, 26</a></li>
               <li class="footer__item"><a class="footer__link"
                   href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -418,7 +418,7 @@
         </div>
             <form class="footer__form">
           <div class="footer__form-subscribe">
-             <label class="footer__form-label" for="subscribe-email" > ПІДПИСАТИСЯ НА РОЗСИЛКУ</label>
+             <label class="footer__form-label" for="subscribe-email" > ПІДПИШІТЬСЯ НА РОЗСИЛКУ</label>
               <input class="footer__form-email" type="email" id="subscribe-email" name="subscribe-email" placeholder="E-mail" required />
           </div>
             <button class="footer__form-button" type="submit">Підписатися

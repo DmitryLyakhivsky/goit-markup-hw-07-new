@@ -37,8 +37,8 @@
 
   &__svg {
     fill: currentColor;
-    width: 106px;
-    height: 60px;
+    width: 18px;
+    height: 18px;
   }
 
   &__close {
@@ -53,6 +53,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     color: $secondary-black-color;
     transition: color $time $transition-cubic;
+ 
 
     &:hover,
     &:focus {
